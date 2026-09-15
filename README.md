@@ -6,8 +6,8 @@ This website showcases my **skills, projects, experience, and contact informatio
 ## 🌐 Live Website
 
 🔗 **Portfolio:**  
-https://ganeshk-39.github.io/portfolio/
 
+https://lucent-taiyaki-8b800a.netlify.app
 ---
 
 ## ✨ Features
