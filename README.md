@@ -47,3 +47,18 @@ portfolio/
 ├── images/
 │   └── ...
 └── README.md
+
+📬 Contact & Connect
+
+Name: K Ganesh
+Location: Bengaluru, Karnataka, India
+
+📧 Email: reddysganigani@gmail.com
+
+📱 Phone: +91 9182661393
+
+🔗 LinkedIn:
+https://linkedin.com/in/k-ganesh-91b9b6323
+
+💻 GitHub:
+https://github.com/Ganeshk-39
