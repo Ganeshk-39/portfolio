@@ -1,0 +1,1325 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="K Ganesh - Aspiring Java Full Stack Developer & Software Engineer. Portfolio showcasing Java, Spring, React, Python, AWS, and AI/ML projects." />
+  <meta name="keywords"
+    content="K Ganesh, Java Full Stack Developer, Spring Boot, React, Python Flask, AWS, Bengaluru, Software Engineer Portfolio" />
+  <meta name="author" content="K Ganesh" />
+
+  <!-- Open Graph / Social Media Meta -->
+  <meta property="og:title" content="K Ganesh | Java Full Stack Developer" />
+  <meta property="og:description"
+    content="Explore projects, skills, experience, and certifications of K Ganesh, an aspiring Java Full Stack Developer based in Bengaluru." />
+  <meta property="og:image" content="assets/ganesh-profile.jpg" />
+  <meta property="og:type" content="website" />
+
+  <title>K Ganesh | Java Full Stack Developer & Software Engineer</title>
+
+  <!-- Google Fonts & Font Awesome Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- Ambient background glow elements -->
+  <div class="ambient-glow glow-1"></div>
+  <div class="ambient-glow glow-2"></div>
+
+  <!-- Header / Navigation Bar -->
+  <header class="site-header" id="header">
+    <div class="container header-container">
+      <a href="#hero" class="brand-logo" id="brand-logo">
+        <span class="logo-bracket">&lt;</span>KG<span class="logo-accent">.dev</span><span
+          class="logo-bracket">/&gt;</span>
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav class="nav-menu" id="nav-menu">
+        <ul class="nav-list">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#experience" class="nav-link">Experience</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#certifications" class="nav-link">Certifications</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Action Buttons -->
+      <div class="header-actions">
+        <a href="https://linkedin.com/in/k-ganesh-91b9b6323" target="_blank" rel="noopener noreferrer"
+          class="btn-linkedin-sm header-linkedin-btn" title="Connect on LinkedIn" aria-label="LinkedIn Profile">
+          <i class="fa-brands fa-linkedin-in"></i>
+          <span>LinkedIn</span>
+        </a>
+        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark/light theme" title="Toggle Theme">
+          <i class="fa-solid fa-moon"></i>
+        </button>
+        <a href="assets/K_Ganesh_Resume.pdf" download="K_Ganesh_Resume.pdf"
+          class="btn btn-outline btn-sm header-resume-btn" id="header-resume-btn">
+          <i class="fa-solid fa-file-arrow-down"></i>
+          <span>Resume</span>
+        </a>
+        <button class="hamburger-btn" id="hamburger-btn" aria-label="Toggle navigation menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu -->
+  <div class="mobile-drawer" id="mobile-drawer">
+    <div class="drawer-header">
+      <span class="drawer-logo">&lt;KG.dev /&gt;</span>
+      <button class="drawer-close" id="drawer-close" aria-label="Close menu">&times;</button>
+    </div>
+    <ul class="mobile-nav-list">
+      <li><a href="#about" class="mobile-link">About</a></li>
+      <li><a href="#skills" class="mobile-link">Skills</a></li>
+      <li><a href="#experience" class="mobile-link">Experience</a></li>
+      <li><a href="#projects" class="mobile-link">Projects</a></li>
+      <li><a href="#education" class="mobile-link">Education</a></li>
+      <li><a href="#certifications" class="mobile-link">Certifications</a></li>
+      <li><a href="#contact" class="mobile-link">Contact</a></li>
+    </ul>
+    <div class="drawer-footer">
+      <a href="https://linkedin.com/in/k-ganesh-91b9b6323" target="_blank" rel="noopener noreferrer"
+        class="btn btn-linkedin btn-block" style="margin-bottom: 0.75rem;">
+        <i class="fa-brands fa-linkedin-in"></i> Connect on LinkedIn
+      </a>
+      <a href="assets/K_Ganesh_Resume.pdf" download="K_Ganesh_Resume.pdf" class="btn btn-primary btn-block">
+        <i class="fa-solid fa-download"></i> Download Resume
+      </a>
+    </div>
+  </div>
+  <div class="drawer-backdrop" id="drawer-backdrop"></div>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero">
+      <div class="container hero-grid">
+        <!-- Hero Text Details -->
+        <div class="hero-content">
+          <div class="hero-badge">
+            <span class="status-pulse"></span>
+            <span>Available for Full-time & Internship Roles</span>
+          </div>
+
+          <h1 class="hero-title">
+            Hi, I'm <span class="gradient-text">K Ganesh</span>
+          </h1>
+          <h2 class="hero-subtitle">
+            Aspiring <span class="typewriter" id="typewriter">Java Full Stack Developer</span>
+          </h2>
+
+          <p class="hero-description">
+            Passionate software engineer with strong foundations in <strong>Core Java, Spring, Hibernate,
+              React</strong>, and <strong>SQL</strong>, blended with hands-on practical exposure to <strong>Python Full
+              Stack</strong>, <strong>AWS Cloud</strong>, and <strong>Machine Learning</strong>. Dedicated to building
+            robust, scalable web architectures and real-world intelligence solutions.
+          </p>
+
+          <!-- Hero Action Buttons -->
+          <div class="hero-actions">
+            <a href="https://linkedin.com/in/k-ganesh-91b9b6323" target="_blank" rel="noopener noreferrer"
+              class="btn btn-linkedin" id="hero-linkedin-btn">
+              <i class="fa-brands fa-linkedin-in"></i>
+              <span>Connect on LinkedIn</span>
+            </a>
+            <a href="#projects" class="btn btn-primary" id="hero-projects-btn">
+              <span>View Projects</span>
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+            <a href="assets/K_Ganesh_Resume.pdf" download="K_Ganesh_Resume.pdf" class="btn btn-secondary"
+              id="hero-cv-btn">
+              <i class="fa-solid fa-file-pdf"></i>
+              <span>Download CV</span>
+            </a>
+            <a href="#contact" class="btn btn-outline" id="hero-contact-btn">
+              <i class="fa-solid fa-envelope"></i>
+              <span>Contact</span>
+            </a>
+          </div>
+
+          <!-- Quick Info Bar -->
+          <div class="hero-stats">
+            <div class="stat-card">
+              <div class="stat-number">2026</div>
+              <div class="stat-label">B.Tech CSE</div>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-card">
+              <div class="stat-number">Full Stack</div>
+              <div class="stat-label">Java & Python</div>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-card">
+              <div class="stat-number">AWS & AI</div>
+              <div class="stat-label">Certified Intern</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Visual Profile Card -->
+        <div class="hero-visual">
+          <div class="profile-card-wrapper">
+            <div class="profile-card-glow"></div>
+            <div class="profile-card">
+              <div class="profile-image-container">
+                <img src="assets/ganesh-profile.jpg" alt="K Ganesh - Java Full Stack Developer" class="profile-image" />
+                <div class="profile-overlay-tag">
+                  <i class="fa-solid fa-location-dot"></i> Bengaluru, India
+                </div>
+              </div>
+
+              <!-- Floating Tech Badges -->
+              <a href="https://linkedin.com/in/k-ganesh-91b9b6323" target="_blank" rel="noopener noreferrer"
+                class="floating-badge badge-linkedin" title="Connect with Ganesh on LinkedIn">
+                <i class="fa-brands fa-linkedin-in"></i>
+                <span>Connect</span>
+              </a>
+              <div class="floating-badge badge-java" title="Java & OOPs">
+                <i class="fa-brands fa-java"></i>
+                <span>Java</span>
+              </div>
+              <div class="floating-badge badge-spring" title="Spring & Hibernate">
+                <i class="fa-solid fa-leaf"></i>
+                <span>Spring</span>
+              </div>
+              <div class="floating-badge badge-react" title="React UI">
+                <i class="fa-brands fa-react"></i>
+                <span>React</span>
+              </div>
+              <div class="floating-badge badge-aws" title="AWS Cloud & AI">
+                <i class="fa-brands fa-aws"></i>
+                <span>AWS</span>
+              </div>
+              <div class="floating-badge badge-python" title="Python & Flask">
+                <i class="fa-brands fa-python"></i>
+                <span>Python</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag"><i class="fa-solid fa-user"></i> Overview</span>
+          <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+          <p class="section-subtitle">A glimpse into my journey, core technical mindset, and professional aspirations.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <!-- Story Box -->
+          <div class="about-card story-card">
+            <h3 class="card-title">
+              <i class="fa-solid fa-terminal text-primary"></i> Engineering with Purpose
+            </h3>
+            <p>
+              I am a final-year Computer Science & Engineering undergraduate at <strong>Dr. K.V. Subba Reddy Institute
+                of Technology</strong> with a strong passion for architecting enterprise-grade applications.
+            </p>
+            <p>
+              My core specialty is <strong>Java Full Stack Development</strong> — leveraging Object-Oriented
+              Programming, Spring frameworks, Hibernate ORM, and React to develop performant, reliable software.
+              Concurrently, my work experience includes developing end-to-end Python/Flask applications and training
+              Machine Learning models, providing me with an exceptional multi-disciplinary advantage.
+            </p>
+            <p>
+              Based in <strong>Bengaluru, Karnataka</strong>, I am actively seeking full-time software developer
+              opportunities where I can apply my problem-solving acumen, clean-code ethos, and cloud integration
+              knowledge to build impactful products.
+            </p>
+
+            <div class="about-meta-grid">
+              <div class="meta-item">
+                <span class="meta-icon"><i class="fa-solid fa-map-pin"></i></span>
+                <div>
+                  <span class="meta-label">Location</span>
+                  <span class="meta-val">Bengaluru, Karnataka, India</span>
+                </div>
+              </div>
+              <div class="meta-item">
+                <span class="meta-icon"><i class="fa-solid fa-language"></i></span>
+                <div>
+                  <span class="meta-label">Languages</span>
+                  <span class="meta-val">English, Telugu</span>
+                </div>
+              </div>
+              <div class="meta-item">
+                <span class="meta-icon"><i class="fa-solid fa-envelope"></i></span>
+                <div>
+                  <span class="meta-label">Email</span>
+                  <a href="mailto:reddysganigani@gmail.com" class="meta-val link-val">reddysganigani@gmail.com</a>
+                </div>
+              </div>
+              <div class="meta-item">
+                <span class="meta-icon"><i class="fa-solid fa-phone"></i></span>
+                <div>
+                  <span class="meta-label">Phone</span>
+                  <a href="tel:+919182661393" class="meta-val link-val">+91 9182661393</a>
+                </div>
+              </div>
+              <div class="meta-item">
+                <span class="meta-icon"><i class="fa-brands fa-linkedin-in text-primary"></i></span>
+                <div>
+                  <span class="meta-label">LinkedIn</span>
+                  <a href="https://linkedin.com/in/k-ganesh-91b9b6323" target="_blank" rel="noopener noreferrer"
+                    class="meta-val link-val">k-ganesh-91b9b6323</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Highlight Highlights Box -->
+          <div class="about-highlights">
+            <div class="highlight-card">
+              <div class="highlight-icon icon-java">
+                <i class="fa-solid fa-cube"></i>
+              </div>
+              <div>
+                <h4>Enterprise Core</h4>
+                <p>Strong foundations in Core Java, OOPs, multi-threading, Spring Framework, and Hibernate ORM.</p>
+              </div>
+            </div>
+
+            <div class="highlight-card">
+              <div class="highlight-icon icon-fullstack">
+                <i class="fa-solid fa-layer-group"></i>
+              </div>
+              <div>
+                <h4>End-to-End Delivery</h4>
+                <p>Seamless integration between reactive UI frontends (HTML5, CSS3, React) and robust SQL data layers.
+                </p>
+              </div>
+            </div>
+
+            <div class="highlight-card">
+              <div class="highlight-icon icon-cloud">
+                <i class="fa-solid fa-cloud"></i>
+              </div>
+              <div>
+                <h4>Cloud & AI Mindset</h4>
+                <p>Practical immersion in AWS services and Deep Learning architectures (CNN, Random Forest, Decision
+                  Trees).</p>
+              </div>
+            </div>
+
+            <div class="highlight-card">
+              <div class="highlight-icon icon-quality">
+                <i class="fa-solid fa-bolt"></i>
+              </div>
+              <div>
+                <h4>Agile & Adaptable</h4>
+                <p>Proactive learner, strong debugging capability, cross-functional collaboration, and clean
+                  documentation.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Technical Skills Section -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag"><i class="fa-solid fa-code"></i> Competencies</span>
+          <h2 class="section-title">Technical <span class="gradient-text">Skills</span></h2>
+          <p class="section-subtitle">A comprehensive toolkit spanning languages, enterprise frameworks, cloud, and data
+            systems.</p>
+        </div>
+
+        <!-- Category Filter Tabs -->
+        <div class="skills-filter-tabs" id="skills-tabs">
+          <button class="filter-tab active" data-category="all">All Skills</button>
+          <button class="filter-tab" data-category="languages">Languages</button>
+          <button class="filter-tab" data-category="frameworks">Web & Frameworks</button>
+          <button class="filter-tab" data-category="cloud-ai">Cloud & AI/ML</button>
+          <button class="filter-tab" data-category="tools">Tools & Database</button>
+          <button class="filter-tab" data-category="soft">Soft Skills</button>
+        </div>
+
+        <!-- Skills Grid Container -->
+        <div class="skills-grid" id="skills-grid">
+          <!-- Programming Languages -->
+          <div class="skill-card" data-category="languages">
+            <div class="skill-icon-wrap java-color"><i class="fa-brands fa-java"></i></div>
+            <div class="skill-info">
+              <h4>Core Java & OOPs</h4>
+              <p>Polymorphism, Inheritance, Collections Framework, Multithreading, Exception Handling</p>
+              <div class="skill-bar-container">
+                <div class="skill-bar" style="--skill-percent: 90%;"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-card" data-category="languages">
+            <div class="skill-icon-wrap python-color"><i class="fa-brands fa-python"></i></div>
+            <div class="skill-info">
+              <h4>Python</h4>
+              <p>Data Structures, Scripting, Flask APIs, Data Analysis, ML model integration</p>
+              <div class="skill-bar-container">
+                <div class="skill-bar" style="--skill-percent: 85%;"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-card" data-category="languages">
+            <div class="skill-icon-wrap sql-color"><i class="fa-solid fa-database"></i></div>
+            <div class="skill-info">
+              <h4>SQL</h4>
+              <p>Relational Schemas, Complex Joins, Normalization, Indexing, CRUD optimizations</p>
+              <div class="skill-bar-container">
+                <div class="skill-bar" style="--skill-percent: 85%;"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-card" data-category="languages">
+            <div class="skill-icon-wrap js-color"><i class="fa-brands fa-js"></i></div>
+            <div class="skill-info">
+              <h4>JavaScript (ES6+)</h4>
+              <p>Asynchronous Programming, Promises, Fetch API, DOM manipulation, Event Handling</p>
+              <div class="skill-bar-container">
+                <div class="skill-bar" style="--skill-percent: 80%;"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Web & Frameworks -->
+          <div class="skill-card" data-category="frameworks">
+            <div class="skill-icon-wrap spring-color"><i class="fa-solid fa-leaf"></i></div>
+            <div class="skill-info">
+              <h4>Spring Framework</h4>
+              <p>Spring Boot, Dependency Injection (IoC), RESTful APIs, Spring MVC</p>
+              <div class="skill-bar-container">
+                <div class="skill-bar" style="--skill-percent: 85%;"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-card" data-category="frameworks">
+            <div class="skill-icon-wrap hibernate-color"><i class="fa-solid fa-database"></i></div>
+            <div class="skill-info">
+              <h4>Hibernate ORM</h4>
+              <p>JPA entity mapping, Session Management, HQL Queries, Transaction handling</p>
+              <div class="skill-bar-container">
+                <div class="skill-bar" style="--skill-percent: 80%;"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-card" data-category="frameworks">
+            <div class="skill-icon-wrap react-color"><i class="fa-brands fa-react"></i></div>
+            <div class="skill-info">
+              <h4>React.js</h4>
+              <p>Components, Hooks, State Management, Virtual DOM, Responsive Interfaces</p>
+              <div class="skill-bar-container">
+                <div class="skill-bar" style="--skill-percent: 82%;"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-card" data-category="frameworks">
+            <div class="skill-icon-wrap flask-color"><i class="fa-solid fa-pepper-hot"></i></div>
+            <div class="skill-info">
+              <h4>Flask</h4>
+              <p>Python Micro-framework, REST endpoints, Jinja templates, DB bridging</p>
+              <div class="skill-bar-container">
+                <div class="skill-bar" style="--skill-percent: 85%;"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-card" data-category="frameworks">
+            <div class="skill-icon-wrap html-color"><i class="fa-brands fa-html5"></i></div>
+            <div class="skill-info">
+              <h4>HTML5 & CSS3</h4>
+              <p>Semantic markup, Flexbox, CSS Grid, Media Queries, Modern Animations</p>
+              <div class="skill-bar-container">
+                <div class="skill-bar" style="--skill-percent: 92%;"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Cloud & AI/ML -->
+          <div class="skill-card" data-category="cloud-ai">
+            <div class="skill-icon-wrap aws-color"><i class="fa-brands fa-aws"></i></div>
+            <div class="skill-info">
+              <h4>Amazon Web Services (AWS)</h4>
+              <p>Cloud fundamentals, EC2, S3, IAM, Gen AI cloud environments (AICTE EduSkills)</p>
+              <div class="skill-bar-container">
+                <div class="skill-bar" style="--skill-percent: 78%;"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-card" data-category="cloud-ai">
+            <div class="skill-icon-wrap ai-color"><i class="fa-solid fa-brain"></i></div>
+            <div class="skill-info">
+              <h4>Deep Learning & CNN</h4>
+              <p>Convolutional Neural Networks, Image / Pattern recognition, Feature extraction</p>
+              <div class="skill-bar-container">
+                <div class="skill-bar" style="--skill-percent: 75%;"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-card" data-category="cloud-ai">
+            <div class="skill-icon-wrap ml-color"><i class="fa-solid fa-network-wired"></i></div>
+            <div class="skill-info">
+              <h4>Machine Learning</h4>
+              <p>Decision Trees, Random Forest, Model Evaluation, Classification pipelines</p>
+              <div class="skill-bar-container">
+                <div class="skill-bar" style="--skill-percent: 80%;"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tools & Platforms -->
+          <div class="skill-card" data-category="tools">
+            <div class="skill-icon-wrap git-color"><i class="fa-brands fa-git-alt"></i></div>
+            <div class="skill-info">
+              <h4>Git & GitHub</h4>
+              <p>Version control, branch management, collaboration, pull requests, CI/CD basics</p>
+              <div class="skill-bar-container">
+                <div class="skill-bar" style="--skill-percent: 88%;"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-card" data-category="tools">
+            <div class="skill-icon-wrap ide-color"><i class="fa-solid fa-laptop-code"></i></div>
+            <div class="skill-info">
+              <h4>IDEs: VS Code & Eclipse</h4>
+              <p>Full debugging workflows, Maven dependency management, plugins, terminal tools</p>
+              <div class="skill-bar-container">
+                <div class="skill-bar" style="--skill-percent: 90%;"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Soft Skills -->
+          <div class="skill-card" data-category="soft">
+            <div class="skill-icon-wrap soft-color"><i class="fa-solid fa-lightbulb"></i></div>
+            <div class="skill-info">
+              <h4>Problem Solving & Analytical Logic</h4>
+              <p>Algorithmic reasoning, modular system breakdown, efficient code structuring</p>
+              <div class="skill-bar-container">
+                <div class="skill-bar" style="--skill-percent: 92%;"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-card" data-category="soft">
+            <div class="skill-icon-wrap soft-color"><i class="fa-solid fa-users"></i></div>
+            <div class="skill-info">
+              <h4>Teamwork & Adaptability</h4>
+              <p>Rapid upskilling, clear technical communication, agile team collaboration</p>
+              <div class="skill-bar-container">
+                <div class="skill-bar" style="--skill-percent: 95%;"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Work & Internship Experience -->
+    <section class="section experience-section" id="experience">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag"><i class="fa-solid fa-briefcase"></i> Career Journey</span>
+          <h2 class="section-title">Work & <span class="gradient-text">Internship Experience</span></h2>
+          <p class="section-subtitle">Real-world production engineering, full stack workflows, and corporate
+            internships.</p>
+        </div>
+
+        <div class="timeline">
+          <!-- Item 1: Glossary Soft Tech -->
+          <div class="timeline-item">
+            <div class="timeline-dot">
+              <i class="fa-solid fa-code"></i>
+            </div>
+            <div class="timeline-card">
+              <div class="timeline-card-header">
+                <div>
+                  <h3 class="timeline-role">Python Full Stack Development Intern</h3>
+                  <h4 class="timeline-company">Glossary Soft Tech Pvt. Ltd. (APSCHE)</h4>
+                </div>
+                <span class="timeline-date"><i class="fa-regular fa-calendar"></i> 2025 – 2026</span>
+              </div>
+              <ul class="timeline-points">
+                <li>Developed responsive, end-to-end web applications employing Python and the Flask microframework.
+                </li>
+                <li>Integrated structured SQL database systems for optimal data modeling, efficient indexing, and
+                  transactional querying.</li>
+                <li>Gained hands-on expertise across full software development lifecycles: interactive frontend
+                  integration, backend RESTful APIs, and cross-system debugging.</li>
+                <li>Implemented clean architectural patterns to enhance maintainability and scalability across modular
+                  components.</li>
+              </ul>
+              <div class="tech-tags">
+                <span class="tag">Python</span>
+                <span class="tag">Flask</span>
+                <span class="tag">SQL</span>
+                <span class="tag">HTML5 / CSS3</span>
+                <span class="tag">REST APIs</span>
+                <span class="tag">System Debugging</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 1: Glossary Soft Tech -->
+          <div class="timeline-item">
+            <div class="timeline-dot">
+              <i class="fa-solid fa-code"></i>
+            </div>
+            <div class="timeline-card">
+              <div class="timeline-card-header">
+                <div>
+                  <h3 class="timeline-role">Python Full Stack Development Intern</h3>
+                  <h4 class="timeline-company">Glossary Soft Tech Pvt. Ltd. (APSCHE)</h4>
+                </div>
+                <span class="timeline-date"><i class="fa-regular fa-calendar"></i> Dec 2025 – Apr 2026</span>
+              </div>
+              <ul class="timeline-points">
+                <li>Completed intensive long-term internship course on Python Full Stack organized in collaboration with
+                  Andhra Pradesh State Council of Higher Education (APSCHE).</li>
+                <li>Developed responsive, end-to-end web applications employing Python and the Flask framework with SQL
+                  database integration.</li>
+                <li>Gained comprehensive hands-on expertise across full stack lifecycle: frontend integration, backend
+                  APIs, and system debugging.</li>
+              </ul>
+              <div class="tech-tags">
+                <span class="tag">Python</span>
+                <span class="tag">Flask</span>
+                <span class="tag">SQL</span>
+                <span class="tag">APSCHE Verified</span>
+                <span class="tag">REST APIs</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 2: AWS / AICTE EduSkills -->
+          <div class="timeline-item">
+            <div class="timeline-dot">
+              <i class="fa-brands fa-aws"></i>
+            </div>
+            <div class="timeline-card">
+              <div class="timeline-card-header">
+                <div>
+                  <h3 class="timeline-role">Cloud Gen AI Virtual Internship (10 Weeks)</h3>
+                  <h4 class="timeline-company">AWS Academy / AICTE EduSkills</h4>
+                </div>
+                <span class="timeline-date"><i class="fa-regular fa-calendar"></i> Jul – Sep 2025</span>
+              </div>
+              <ul class="timeline-points">
+                <li>Successfully completed 10-week intensive curriculum on Cloud Generative AI provided by AWS Academy.
+                </li>
+                <li>Achieved top performance distinction: <strong>Grade O (Outstanding 90–100)</strong>.</li>
+                <li>Implemented cloud architectures, IAM security configurations, S3 buckets, and AI inference
+                  deployment on Amazon Web Services.</li>
+              </ul>
+              <div class="tech-tags">
+                <span class="tag">AWS Cloud</span>
+                <span class="tag">Generative AI</span>
+                <span class="tag">Grade O (Outstanding)</span>
+                <span class="tag">Cert ID: 58ecc552</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 3: Zscaler Zero Trust Cloud Security -->
+          <div class="timeline-item">
+            <div class="timeline-dot">
+              <i class="fa-solid fa-shield-halved"></i>
+            </div>
+            <div class="timeline-card">
+              <div class="timeline-card-header">
+                <div>
+                  <h3 class="timeline-role">Zero Trust Cloud Security Virtual Internship (10 Weeks)</h3>
+                  <h4 class="timeline-company">Zscaler / AICTE EduSkills</h4>
+                </div>
+                <span class="timeline-date"><i class="fa-regular fa-calendar"></i> Jan – Mar 2025</span>
+              </div>
+              <ul class="timeline-points">
+                <li>Completed 10-week enterprise security program supported by Zscaler and AICTE EduSkills.</li>
+                <li>Achieved high merit distinction: <strong>Grade E (Excellent 80–89)</strong>.</li>
+                <li>Mastered modern Zero Trust Architecture principles, secure cloud access service edge (SASE), and
+                  threat prevention policies.</li>
+              </ul>
+              <div class="tech-tags">
+                <span class="tag">Zero Trust Security</span>
+                <span class="tag">Zscaler</span>
+                <span class="tag">Cloud Security</span>
+                <span class="tag">Grade E (Excellent)</span>
+                <span class="tag">Cert ID: 563b2544</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Key Projects Section -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag"><i class="fa-solid fa-laptop-code"></i> Featured Work</span>
+          <h2 class="section-title">Key <span class="gradient-text">Projects</span></h2>
+          <p class="section-subtitle">Showcasing engineering capabilities across Machine Learning, Enterprise Java, and
+            Full Stack.</p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Major Project (Flagship) -->
+          <div class="project-card featured-project-card">
+            <div class="project-badge"><i class="fa-solid fa-star"></i> Major Project</div>
+            <div class="project-header">
+              <div class="project-icon-box">
+                <i class="fa-solid fa-heart-pulse"></i>
+              </div>
+              <div class="project-meta-top">
+                <span class="category-pill">AI & Healthcare Analytics</span>
+                <span class="date-pill">2025 – 2026</span>
+              </div>
+            </div>
+
+            <h3 class="project-title">A Machine Learning-Based Predictive Analytics Framework for Early Diagnosis of OCD
+            </h3>
+
+            <p class="project-description">
+              Engineered an AI-powered healthcare diagnostic web application designed to identify and predict
+              Obsessive-Compulsive Disorder (OCD) subtypes with high predictive precision. Implemented and rigorously
+              benchmarked multiple ML/DL architectures including <strong>Convolutional Neural Networks (CNN)</strong>,
+              <strong>Decision Trees</strong>, and <strong>Random Forests</strong>.
+            </p>
+
+            <div class="project-features-list">
+              <div class="feature-bullet">
+                <i class="fa-solid fa-check text-success"></i>
+                <span>Automated dataset ingestion, validation, and multi-model retraining pipeline.</span>
+              </div>
+              <div class="feature-bullet">
+                <i class="fa-solid fa-check text-success"></i>
+                <span>Interactive Flask web portal featuring real-time diagnostic risk score predictions.</span>
+              </div>
+              <div class="feature-bullet">
+                <i class="fa-solid fa-check text-success"></i>
+                <span>Secure role-based administrative authentication & SQL storage for clinical logs.</span>
+              </div>
+            </div>
+
+            <div class="project-tech-stack">
+              <span class="tag">Python</span>
+              <span class="tag">Flask</span>
+              <span class="tag">CNN</span>
+              <span class="tag">Deep Learning</span>
+              <span class="tag">Decision Tree</span>
+              <span class="tag">Random Forest</span>
+              <span class="tag">SQL</span>
+            </div>
+
+            <div class="project-actions">
+              <button class="btn btn-primary btn-sm open-project-modal" data-project="ocd-project">
+                <i class="fa-solid fa-circle-info"></i> Project Details
+              </button>
+              <a href="https://linkedin.com/in/k-ganesh-91b9b6323" target="_blank" rel="noopener noreferrer"
+                class="btn btn-outline btn-sm">
+                <i class="fa-brands fa-linkedin"></i> Discuss Project
+              </a>
+            </div>
+          </div>
+
+          <!-- Project 2: Java Full Stack Enterprise Platform -->
+          <div class="project-card">
+            <div class="project-header">
+              <div class="project-icon-box icon-java-box">
+                <i class="fa-brands fa-java"></i>
+              </div>
+              <div class="project-meta-top">
+                <span class="category-pill">Java Enterprise</span>
+                <span class="date-pill">Full Stack</span>
+              </div>
+            </div>
+
+            <h3 class="project-title">Enterprise Web Application with Spring Boot, Hibernate & React</h3>
+
+            <p class="project-description">
+              Engineered a multi-tier enterprise web application showcasing modular backend architecture. Implemented
+              RESTful microservices with Spring Boot, object-relational persistence with Hibernate JPA, and a responsive
+              frontend in React with secure JWT token authentication.
+            </p>
+
+            <div class="project-features-list">
+              <div class="feature-bullet">
+                <i class="fa-solid fa-check text-success"></i>
+                <span>Clean 3-tier architecture: Controller, Service, and Repository patterns.</span>
+              </div>
+              <div class="feature-bullet">
+                <i class="fa-solid fa-check text-success"></i>
+                <span>Optimized SQL queries with Hibernate caching to reduce database latency.</span>
+              </div>
+            </div>
+
+            <div class="project-tech-stack">
+              <span class="tag">Core Java</span>
+              <span class="tag">Spring Boot</span>
+              <span class="tag">Hibernate</span>
+              <span class="tag">React</span>
+              <span class="tag">MySQL</span>
+              <span class="tag">REST APIs</span>
+            </div>
+
+            <div class="project-actions">
+              <button class="btn btn-outline btn-sm open-project-modal" data-project="java-project">
+                <i class="fa-solid fa-circle-info"></i> Architecture View
+              </button>
+              <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+                <i class="fa-brands fa-github"></i> Repository
+              </a>
+            </div>
+          </div>
+
+          <!-- Project 3: Cloud & GenAI Microservice -->
+          <div class="project-card">
+            <div class="project-header">
+              <div class="project-icon-box icon-aws-box">
+                <i class="fa-brands fa-aws"></i>
+              </div>
+              <div class="project-meta-top">
+                <span class="category-pill">Cloud & AI</span>
+                <span class="date-pill">AWS / Flask</span>
+              </div>
+            </div>
+
+            <h3 class="project-title">Cloud-Native Intelligent Query Portal on AWS</h3>
+
+            <p class="project-description">
+              Developed during the AWS / AICTE Gen AI Internship program. Utilized Amazon Web Services infrastructure to
+              deploy containerized Flask API endpoints that process user requests, leverage ML classification
+              algorithms, and store metadata securely.
+            </p>
+
+            <div class="project-features-list">
+              <div class="feature-bullet">
+                <i class="fa-solid fa-check text-success"></i>
+                <span>Scalable cloud deployment patterns with S3 storage and EC2 compute instances.</span>
+              </div>
+              <div class="feature-bullet">
+                <i class="fa-solid fa-check text-success"></i>
+                <span>REST API architecture with automated health checks and logging.</span>
+              </div>
+            </div>
+
+            <div class="project-tech-stack">
+              <span class="tag">AWS Cloud</span>
+              <span class="tag">Python</span>
+              <span class="tag">Flask</span>
+              <span class="tag">Gen AI</span>
+              <span class="tag">IAM & S3</span>
+            </div>
+
+            <div class="project-actions">
+              <button class="btn btn-outline btn-sm open-project-modal" data-project="cloud-project">
+                <i class="fa-solid fa-circle-info"></i> Learn More
+              </button>
+              <a href="mailto:reddysganigani@gmail.com?subject=Inquiry%20about%20Cloud%20Project"
+                class="btn btn-secondary btn-sm">
+                <i class="fa-solid fa-envelope"></i> Request Demo
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="section education-section" id="education">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag"><i class="fa-solid fa-building-columns"></i> Academics</span>
+          <h2 class="section-title">Educational <span class="gradient-text">Background</span></h2>
+          <p class="section-subtitle">Consistent academic foundation in computer science and mathematics.</p>
+        </div>
+
+        <div class="education-grid">
+          <!-- B.Tech Card -->
+          <div class="education-card primary-edu">
+            <div class="edu-badge"><i class="fa-solid fa-certificate"></i> Undergraduate</div>
+            <div class="edu-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+            <span class="edu-year">2022 – 2026</span>
+            <h3 class="edu-degree">B.Tech in Computer Science & Engineering</h3>
+            <h4 class="edu-institution">Dr. K.V. Subba Reddy Institute of Technology</h4>
+            <div class="edu-score">
+              <span class="score-badge">CGPA / Percentage: <strong>70%</strong></span>
+            </div>
+            <p class="edu-desc">
+              Rigorous coursework in Data Structures, Algorithms, Object-Oriented Analysis & Design, Database Management
+              Systems (DBMS), Operating Systems, Software Engineering, and Computer Networks.
+            </p>
+          </div>
+
+          <!-- Intermediate Card -->
+          <div class="education-card">
+            <div class="edu-badge">Higher Secondary</div>
+            <div class="edu-icon"><i class="fa-solid fa-book-open"></i></div>
+            <span class="edu-year">2020 – 2022</span>
+            <h3 class="edu-degree">Intermediate (MPC)</h3>
+            <h4 class="edu-institution">Sri Vivekananda Junior College</h4>
+            <div class="edu-score">
+              <span class="score-badge">Marks Secured: <strong>549</strong></span>
+            </div>
+            <p class="edu-desc">
+              Strong core foundation in Mathematics, Physics, and Chemistry fostering analytical problem-solving and
+              algorithmic thinking.
+            </p>
+          </div>
+
+          <!-- SSC Card -->
+          <div class="education-card">
+            <div class="edu-badge">Secondary</div>
+            <div class="edu-icon"><i class="fa-solid fa-school"></i></div>
+            <span class="edu-year">2020</span>
+            <h3 class="edu-degree">Secondary School Certificate (SSC)</h3>
+            <h4 class="edu-institution">Z.P. High School, Menatampalle</h4>
+            <div class="edu-score">
+              <span class="score-badge">Marks Secured: <strong>424</strong></span>
+            </div>
+            <p class="edu-desc">
+              Excellence in mathematics, science, and foundational logic with active participation in school
+              co-curricular activities.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certifications & Achievements -->
+    <section class="section cert-section" id="certifications">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag"><i class="fa-solid fa-award"></i> Credentials</span>
+          <h2 class="section-title">Certifications & <span class="gradient-text">Virtual Internships</span></h2>
+          <p class="section-subtitle">Industry-recognized training, verified credentials, and continuous learning
+            achievements.</p>
+        </div>
+
+        <div class="cert-grid">
+          <!-- Cert 1: AWS Cloud Gen AI -->
+          <div class="cert-card">
+            <div class="cert-thumb-wrapper open-cert-modal" data-cert="assets/certificates/cert-aws-genai.png"
+              data-title="Cloud Gen AI Virtual Internship – AWS Academy"
+              onclick="openCertModal('assets/certificates/cert-aws-genai.png', 'Cloud Gen AI Virtual Internship – AWS Academy')">
+              <img src="assets/certificates/cert-aws-genai.png" alt="Cloud Gen AI Certificate - AWS Academy"
+                class="cert-thumb" loading="lazy" />
+              <div class="cert-overlay">
+                <i class="fa-solid fa-magnifying-glass-plus"></i>
+                <span>View Full Certificate</span>
+              </div>
+              <span class="cert-grade-badge cert-badge-outstanding">Grade O • Outstanding</span>
+            </div>
+            <div class="cert-body">
+              <span class="cert-date"><i class="fa-regular fa-calendar"></i> Jul – Sep 2025 • 10 Weeks</span>
+              <h3 class="cert-name">Cloud Gen AI Virtual Internship</h3>
+              <p class="cert-org"><i class="fa-brands fa-aws"></i> AWS Academy / AICTE EduSkills</p>
+              <p class="cert-detail">
+                Hands-on practical specialization covering AWS Cloud services, Generative AI models, cloud
+                infrastructure, and security automation.
+              </p>
+              <div class="cert-meta-footer">
+                <span class="cert-id-tag">ID: 58ecc552...8036</span>
+                <button type="button" class="btn btn-outline btn-sm open-cert-modal"
+                  data-cert="assets/certificates/cert-aws-genai.png"
+                  data-title="Cloud Gen AI Virtual Internship – AWS Academy"
+                  onclick="openCertModal('assets/certificates/cert-aws-genai.png', 'Cloud Gen AI Virtual Internship – AWS Academy')">
+                  <i class="fa-solid fa-eye"></i> View
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Cert 2: Zscaler Zero Trust Cloud Security -->
+          <div class="cert-card">
+            <div class="cert-thumb-wrapper open-cert-modal"
+              data-cert="assets/certificates/cert-zscaler-cloud-security.png"
+              data-title="Zero Trust Cloud Security Virtual Internship – Zscaler"
+              onclick="openCertModal('assets/certificates/cert-zscaler-cloud-security.png', 'Zero Trust Cloud Security Virtual Internship – Zscaler')">
+              <img src="assets/certificates/cert-zscaler-cloud-security.png"
+                alt="Zero Trust Cloud Security Certificate - Zscaler" class="cert-thumb" loading="lazy" />
+              <div class="cert-overlay">
+                <i class="fa-solid fa-magnifying-glass-plus"></i>
+                <span>View Full Certificate</span>
+              </div>
+              <span class="cert-grade-badge">Grade E • Excellent</span>
+            </div>
+            <div class="cert-body">
+              <span class="cert-date"><i class="fa-regular fa-calendar"></i> Jan – Mar 2025 • 10 Weeks</span>
+              <h3 class="cert-name">Zero Trust Cloud Security Virtual Internship</h3>
+              <p class="cert-org"><i class="fa-solid fa-shield-halved"></i> Zscaler / AICTE EduSkills</p>
+              <p class="cert-detail">
+                Intensive 10-week enterprise security curriculum covering Zero Trust Network Architecture (ZTNA), secure
+                internet access, and cloud perimeter protection.
+              </p>
+              <div class="cert-meta-footer">
+                <span class="cert-id-tag">ID: 563b2544...ff82</span>
+                <button type="button" class="btn btn-outline btn-sm open-cert-modal"
+                  data-cert="assets/certificates/cert-zscaler-cloud-security.png"
+                  data-title="Zero Trust Cloud Security Virtual Internship – Zscaler"
+                  onclick="openCertModal('assets/certificates/cert-zscaler-cloud-security.png', 'Zero Trust Cloud Security Virtual Internship – Zscaler')">
+                  <i class="fa-solid fa-eye"></i> View
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Cert 3: APSCHE Python Full Stack -->
+          <div class="cert-card">
+            <div class="cert-thumb-wrapper open-cert-modal"
+              data-cert="assets/certificates/cert-apsche-python-fullstack.png"
+              data-title="Python Full Stack Development – APSCHE"
+              onclick="openCertModal('assets/certificates/cert-apsche-python-fullstack.png', 'Python Full Stack Development – APSCHE')">
+              <img src="assets/certificates/cert-apsche-python-fullstack.png"
+                alt="Python Full Stack Certificate - APSCHE" class="cert-thumb" loading="lazy" />
+              <div class="cert-overlay">
+                <i class="fa-solid fa-magnifying-glass-plus"></i>
+                <span>View Full Certificate</span>
+              </div>
+              <span class="cert-grade-badge"
+                style="background: linear-gradient(135deg, #0284c7 0%, #0d9488 100%);">Govt. Verified</span>
+            </div>
+            <div class="cert-body">
+              <span class="cert-date"><i class="fa-regular fa-calendar"></i> Dec 2025 – Apr 2026</span>
+              <h3 class="cert-name">Python Full Stack Long-Term Internship</h3>
+              <p class="cert-org"><i class="fa-brands fa-python"></i> APSCHE / Glossary Soft Tech Pvt. Ltd.</p>
+              <p class="cert-detail">
+                Comprehensive government-recognized internship in Python backend, Flask API microservices, SQL
+                databases, and responsive client architectures.
+              </p>
+              <div class="cert-meta-footer">
+                <span class="cert-id-tag">Reg: CSE-22FH1A0539</span>
+                <button type="button" class="btn btn-outline btn-sm open-cert-modal"
+                  data-cert="assets/certificates/cert-apsche-python-fullstack.png"
+                  data-title="Python Full Stack Development – APSCHE"
+                  onclick="openCertModal('assets/certificates/cert-apsche-python-fullstack.png', 'Python Full Stack Development – APSCHE')">
+                  <i class="fa-solid fa-eye"></i> View
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Cert 4: NPTEL IIT Kanpur Data Analysis -->
+          <div class="cert-card">
+            <div class="cert-thumb-wrapper open-cert-modal" data-cert="assets/certificates/cert-nptel-data-analysis.png"
+              data-title="Data Analysis & Decision Making III – IIT Kanpur (NPTEL)"
+              onclick="openCertModal('assets/certificates/cert-nptel-data-analysis.png', 'Data Analysis & Decision Making III – IIT Kanpur (NPTEL)')">
+              <img src="assets/certificates/cert-nptel-data-analysis.png"
+                alt="Data Analysis Certificate - IIT Kanpur NPTEL" class="cert-thumb" loading="lazy" />
+              <div class="cert-overlay">
+                <i class="fa-solid fa-magnifying-glass-plus"></i>
+                <span>View Full Certificate</span>
+              </div>
+              <span class="cert-grade-badge cert-badge-iit">IIT Kanpur • 51%</span>
+            </div>
+            <div class="cert-body">
+              <span class="cert-date"><i class="fa-regular fa-calendar"></i> Jul – Oct 2024 • 12 Weeks</span>
+              <h3 class="cert-name">Data Analysis & Decision Making - III</h3>
+              <p class="cert-org"><i class="fa-solid fa-building-columns"></i> IIT Kanpur / NPTEL (MoE, Govt. of India)
+              </p>
+              <p class="cert-detail">
+                Rigorous 12-week analytical coursework on statistical modeling, data analysis, quantitative methods, and
+                algorithmic decision systems.
+              </p>
+              <div class="cert-meta-footer">
+                <span class="cert-id-tag">Roll: NPTEL24MG98S750802527</span>
+                <button type="button" class="btn btn-outline btn-sm open-cert-modal"
+                  data-cert="assets/certificates/cert-nptel-data-analysis.png"
+                  data-title="Data Analysis & Decision Making III – IIT Kanpur (NPTEL)"
+                  onclick="openCertModal('assets/certificates/cert-nptel-data-analysis.png', 'Data Analysis & Decision Making III – IIT Kanpur (NPTEL)')">
+                  <i class="fa-solid fa-eye"></i> View
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Cert 5: NPTEL IIT Roorkee Public Speaking -->
+          <div class="cert-card">
+            <div class="cert-thumb-wrapper open-cert-modal"
+              data-cert="assets/certificates/cert-nptel-public-speaking.png"
+              data-title="Public Speaking – IIT Roorkee (NPTEL)"
+              onclick="openCertModal('assets/certificates/cert-nptel-public-speaking.png', 'Public Speaking – IIT Roorkee (NPTEL)')">
+              <img src="assets/certificates/cert-nptel-public-speaking.png"
+                alt="Public Speaking Certificate - IIT Roorkee NPTEL" class="cert-thumb" loading="lazy" />
+              <div class="cert-overlay">
+                <i class="fa-solid fa-magnifying-glass-plus"></i>
+                <span>View Full Certificate</span>
+              </div>
+              <span class="cert-grade-badge cert-badge-iit">IIT Roorkee • 53%</span>
+            </div>
+            <div class="cert-body">
+              <span class="cert-date"><i class="fa-regular fa-calendar"></i> Jul – Oct 2024 • 12 Weeks</span>
+              <h3 class="cert-name">Professional Public Speaking</h3>
+              <p class="cert-org"><i class="fa-solid fa-microphone-lines"></i> IIT Roorkee / NPTEL (MoE, Govt. of India)
+              </p>
+              <p class="cert-detail">
+                Specialized 12-week program cultivating executive articulation, presentation architecture, technical
+                communication, and interpersonal impact.
+              </p>
+              <div class="cert-meta-footer">
+                <span class="cert-id-tag">Roll: NPTEL24HS143S850802688</span>
+                <button type="button" class="btn btn-outline btn-sm open-cert-modal"
+                  data-cert="assets/certificates/cert-nptel-public-speaking.png"
+                  data-title="Public Speaking – IIT Roorkee (NPTEL)"
+                  onclick="openCertModal('assets/certificates/cert-nptel-public-speaking.png', 'Public Speaking – IIT Roorkee (NPTEL)')">
+                  <i class="fa-solid fa-eye"></i> View
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Interactive Contact Section -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag"><i class="fa-solid fa-paper-plane"></i> Connect</span>
+          <h2 class="section-title">Let's <span class="gradient-text">Talk & Collaborate</span></h2>
+          <p class="section-subtitle">Interested in discussing a software engineering role, internship, or project?
+            Reach out directly!</p>
+        </div>
+
+        <div class="contact-layout">
+          <!-- Contact Cards Info -->
+          <div class="contact-info-panel">
+            <h3 class="contact-panel-title">Contact Information</h3>
+            <p class="contact-panel-desc">
+              I am open to full-time entry-level software engineering positions, Java developer roles, and full stack
+              opportunities across Bengaluru or remote.
+            </p>
+
+            <div class="contact-channel-list">
+              <!-- Email Item -->
+              <div class="channel-item">
+                <div class="channel-icon">
+                  <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div class="channel-details">
+                  <span class="channel-label">Email Me</span>
+                  <a href="mailto:reddysganigani@gmail.com" class="channel-value">reddysganigani@gmail.com</a>
+                </div>
+                <button class="copy-btn" data-copy="reddysganigani@gmail.com" title="Copy email"
+                  aria-label="Copy email">
+                  <i class="fa-regular fa-copy"></i>
+                </button>
+              </div>
+
+              <!-- Phone Item -->
+              <div class="channel-item">
+                <div class="channel-icon">
+                  <i class="fa-solid fa-phone"></i>
+                </div>
+                <div class="channel-details">
+                  <span class="channel-label">Call or WhatsApp</span>
+                  <a href="tel:+919182661393" class="channel-value">+91 9182661393</a>
+                </div>
+                <button class="copy-btn" data-copy="+919182661393" title="Copy phone" aria-label="Copy phone">
+                  <i class="fa-regular fa-copy"></i>
+                </button>
+              </div>
+
+              <!-- Location Item -->
+              <div class="channel-item">
+                <div class="channel-icon">
+                  <i class="fa-solid fa-location-dot"></i>
+                </div>
+                <div class="channel-details">
+                  <span class="channel-label">Primary Location</span>
+                  <span class="channel-value">Bengaluru, Karnataka, India</span>
+                </div>
+              </div>
+
+              <!-- LinkedIn Item -->
+              <div class="channel-item channel-item-featured">
+                <div class="channel-icon" style="background: rgba(10, 102, 194, 0.15); color: #0a66c2;">
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </div>
+                <div class="channel-details">
+                  <span class="channel-label">LinkedIn Profile</span>
+                  <a href="https://linkedin.com/in/k-ganesh-91b9b6323" target="_blank" rel="noopener noreferrer"
+                    class="channel-value">linkedin.com/in/k-ganesh-91b9b6323</a>
+                </div>
+                <a href="https://linkedin.com/in/k-ganesh-91b9b6323" target="_blank" rel="noopener noreferrer"
+                  class="btn btn-linkedin-sm" style="margin-left: auto;">
+                  <span>Connect</span>
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+              </div>
+            </div>
+
+            <!-- Resume Download Highlight Box -->
+            <div class="resume-download-card">
+              <div class="resume-meta">
+                <i class="fa-solid fa-file-pdf resume-icon"></i>
+                <div>
+                  <h4>Official Resume (PDF)</h4>
+                  <span>Updated with latest skills & projects</span>
+                </div>
+              </div>
+              <a href="assets/K_Ganesh_Resume.pdf" download="K_Ganesh_Resume.pdf" class="btn btn-primary btn-sm">
+                <i class="fa-solid fa-download"></i> Download
+              </a>
+            </div>
+          </div>
+
+          <!-- Interactive Contact Form -->
+          <div class="contact-form-panel">
+            <h3 class="form-title">Send a Direct Message</h3>
+            <form id="contact-form" class="contact-form" novalidate>
+              <div class="form-group">
+                <label for="contact-name">Your Full Name <span class="required">*</span></label>
+                <div class="input-wrap">
+                  <i class="fa-regular fa-user input-icon"></i>
+                  <input type="text" id="contact-name" name="name" placeholder="John Doe or Recruiter Name" required />
+                </div>
+                <span class="field-error" id="name-error"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-email">Email Address <span class="required">*</span></label>
+                <div class="input-wrap">
+                  <i class="fa-regular fa-envelope input-icon"></i>
+                  <input type="email" id="contact-email" name="email" placeholder="example@company.com" required />
+                </div>
+                <span class="field-error" id="email-error"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-subject">Subject / Position Discussed <span class="required">*</span></label>
+                <div class="input-wrap">
+                  <i class="fa-solid fa-briefcase input-icon"></i>
+                  <input type="text" id="contact-subject" name="subject"
+                    placeholder="Java Developer Opening / Project Discussion" required />
+                </div>
+                <span class="field-error" id="subject-error"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-message">Message <span class="required">*</span></label>
+                <div class="input-wrap textarea-wrap">
+                  <i class="fa-regular fa-comment-dots input-icon"></i>
+                  <textarea id="contact-message" name="message" rows="5"
+                    placeholder="Hi Ganesh, we came across your portfolio and would like to invite you..."
+                    required></textarea>
+                </div>
+                <span class="field-error" id="message-error"></span>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-block" id="contact-submit-btn">
+                <span class="btn-text">Send Message</span>
+                <i class="fa-solid fa-paper-plane"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Global Footer -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-brand">
+        <a href="#hero" class="brand-logo">&lt;KG<span class="logo-accent">.dev</span>/&gt;</a>
+        <p>Crafting robust, high-performance web systems with modern technologies.</p>
+      </div>
+
+      <div class="footer-links">
+        <h4>Navigation</h4>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-socials">
+        <h4>Social Connect</h4>
+        <div class="social-icons">
+          <a href="https://linkedin.com/in/k-ganesh-91b9b6323" target="_blank" rel="noopener noreferrer"
+            aria-label="LinkedIn Profile" title="LinkedIn">
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+          <a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile"
+            title="GitHub">
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a href="mailto:reddysganigani@gmail.com" aria-label="Send Email" title="Email">
+            <i class="fa-solid fa-envelope"></i>
+          </a>
+          <a href="tel:+919182661393" aria-label="Call Me" title="Phone">
+            <i class="fa-solid fa-phone"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-bottom-content">
+        <p>&copy; <span id="current-year">2026</span> <strong>K Ganesh</strong>. All rights reserved.</p>
+        <p class="built-with">Built with HTML5, CSS3, & Modern JavaScript &bull; Hosted in Bengaluru</p>
+        <a href="#hero" class="back-to-top" id="back-to-top" aria-label="Scroll back to top">
+          <i class="fa-solid fa-arrow-up"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Modal for Project Deep Dive -->
+  <div class="modal" id="project-modal" aria-hidden="true" role="dialog">
+    <div class="modal-backdrop" id="modal-backdrop"></div>
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <h3 class="modal-title" id="modal-title">Project Overview</h3>
+        <button class="modal-close-btn" id="modal-close-btn" aria-label="Close modal">&times;</button>
+      </div>
+      <div class="modal-body" id="modal-body">
+        <!-- Content injected dynamically by main.js -->
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-secondary btn-sm" id="modal-close-action">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification Container -->
+  <div class="toast-container" id="toast-container"></div>
+
+  <script src="main.js?v=3"></script>
+</body>
+
+</html>
